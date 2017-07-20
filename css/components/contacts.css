@@ -1,0 +1,67 @@
+/*contacts section*/
+
+
+.contacts {
+    background-color: #ebd3bd;
+    position: relative;    
+    overflow: hidden;
+}
+
+
+.contacts__wrapper {
+    padding: 85px 0;
+    width: 470px;
+    margin-bottom: -30px;    
+}
+
+.contacts__title {
+    color: #9e394b;
+    margin-bottom: 45px;
+    line-height: 38px;
+}
+
+.contacts__map {
+    width: 880px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 45%;
+}
+
+.contacts__item {
+    margin-bottom: 30px;
+    width: 470px;
+}
+
+.contacts__text {
+    max-width: 380px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts__text--semibold {
+    font-weight: 600;
+}
+
+.contacts__item:before {
+    content: "";
+    display: inline-block;
+    background: url('/img/icons/Sprite.png') 0 0 no-repeat;
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.contacts__item--phone:before {
+    background-position: 0 0;
+}
+
+.contacts__item--address:before {
+    background-position: -100px 0;
+}
+
+.contacts__item--schedule:before {
+    background-position: -200px 0;
+}

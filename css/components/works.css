@@ -1,0 +1,65 @@
+/*works section*/
+
+
+.works__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    position: relative;
+}
+
+.works__title {
+    color: #9e394b;
+    margin-bottom: 45px;
+    display: block;
+    text-align: center;
+}
+
+.works__wrapper {
+    float: left;
+    display: inline-block;
+    margin-left: -30px;
+    font-size: 0;
+
+}
+
+.works__item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 370px;
+    margin-left: 30px;
+
+}
+
+.works__photo {
+    height: 370px;
+    width: 370px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.works__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.works__back {
+    background: url('/img/icons/Sprite.png') -300px -100px no-repeat;
+    top: 50%;
+    margin-top: 20px;
+    margin-left: -35px;
+    position: absolute; 
+}
+
+.works__next {
+    background: url('/img/icons/Sprite.png') -400px -100px no-repeat;
+    top: 50%;
+    margin-top: 20px;
+    right: -8px;
+    position: absolute; 
+}

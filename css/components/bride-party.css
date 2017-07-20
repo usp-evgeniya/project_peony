@@ -1,0 +1,39 @@
+/*bride-party section*/
+
+
+.bride-party {
+    background-color: #ebd3bd;
+    position: relative;
+}
+
+
+
+.bride-party__wrapper {
+    padding: 85px 0;
+    width: 470px;
+}
+
+.bride-party__title {
+    color: #9e394b;
+    margin-bottom: 40px;
+    line-height: 38px;
+}
+
+.bride-party__photo {
+    background: url('/img/background/bride-party.png') 0% 100% no-repeat; 
+    width: 1050px;
+    height: 740px;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.bride-party__text {
+    margin-bottom: -25px;
+    width: 470px;
+}
+
+.bride-party__text p {
+    margin: 0;
+    margin-bottom: 25px;
+}

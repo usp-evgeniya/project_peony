@@ -1,0 +1,26 @@
+/* manicure section*/
+
+.manicure {
+    background: url('/img/background/manicure.png') 10% 100% no-repeat;
+    background-size: contain; 
+    margin-top: 80px;
+}
+
+
+.manicure__wrapper {
+    width: 600px;
+    float: right;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.manicure__title {
+    color: #9e394b; 
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.manicure__item {
+    margin-bottom: 35px;
+}

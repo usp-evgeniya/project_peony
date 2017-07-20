@@ -1,0 +1,44 @@
+.main-screen {
+    background: url('/img/background/main-screen.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.main-screen__content {
+    padding-top: 200px;
+    padding-bottom: 105px;
+}
+
+.main-screen__title {
+    color: #9f3a4d;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    width: 770px;
+    margin-bottom: 50px;
+}
+
+.main-screen__action {
+    padding: 20px 84px;
+    background-color: rgb(162, 0, 70);
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 0px 0px rgba(129, 34, 52, 0.4);
+    display: inline-block;
+    transition: all 0.5s ease-out;
+}
+
+.main-screen__button {
+    color: #fffefe;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.main-screen__action:hover {
+    background-color:  rgb(255, 108, 136);
+}
+
+.main-screen__action:active {
+    background-color:  rgb(162, 0, 70);
+    margin-top: 1px;
+}
+

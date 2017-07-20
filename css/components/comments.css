@@ -1,0 +1,73 @@
+/*comments section*/
+
+
+.comments__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.comments__wrapper {
+    display: inline-block;
+}
+
+.comments__title {
+    color: #9e394b;
+    margin-bottom: 45px;
+    display: block;
+    text-align: center;
+    width: 630px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments__block {
+    width: 270px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.comments__photo {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.comments__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.comments__name {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.comments__text {
+    display: inline-block; 
+    width: 630px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.comments__back {
+    background: url('/img/icons/Sprite.png') -300px -100px no-repeat;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+.comments__next {
+    background: url('/img/icons/Sprite.png') -400px -100px no-repeat;
+    margin-left: 40px;
+    vertical-align: middle;
+}

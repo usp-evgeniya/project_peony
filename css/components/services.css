@@ -1,0 +1,56 @@
+/*sevices section*/
+
+.services {
+    background: url('/img/background/services-team.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.services__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+}
+
+.services__title {
+    color: #fff;
+    margin-bottom: 45px;
+    display: block;
+    text-align: center;
+}
+
+.services__wrapper {
+    float: left;
+    display: block;
+    margin-left: -30px;
+    font-size: 0;
+}
+
+.services__item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 45px;
+    width: 370px;
+    margin-left: 30px;
+
+}
+
+.services__photo {
+    height: 257px;
+    width: 370px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.services__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.services__text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+

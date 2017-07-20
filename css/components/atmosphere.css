@@ -1,0 +1,28 @@
+/*atmosphere section*/
+
+
+.atmosphere {
+    background: url('/img/background/atmosphere.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.atmosphere__wrapper {
+    padding: 85px 0;
+    width: 500px;
+}
+
+.atmosphere__title {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.atmosphere__text {
+    color: #fff;
+    margin-bottom: -25px;
+    width: 470px;
+}
+
+.atmosphere__text p {
+    margin: 0;
+    margin-bottom: 25px;
+}

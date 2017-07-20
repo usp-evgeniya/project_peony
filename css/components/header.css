@@ -1,0 +1,43 @@
+/*header*/
+
+.header {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.header__left, .header__middle, .header__right {
+    width: 33.33%;
+    float: left;
+    display: inline-block;
+}
+
+.header__left {
+    text-align: left;
+}
+
+.header__middle {
+    text-align: center;
+}
+
+.header__right {
+    text-align: right;
+}
+
+
+.header__number {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.header__address {
+    font-weight: 600;
+}

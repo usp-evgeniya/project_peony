@@ -1,0 +1,97 @@
+/*prices section*/
+
+
+.prices__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.prices__wrapper {
+    display: inline-block;
+}
+
+.prices__title {
+    color: #9e394b;
+    margin-bottom: 45px;
+    display: block;
+    text-align: center;
+    width: 630px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prices__table {
+    width: 400px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+}
+
+.prices__table th {
+    font-weight: bold;
+}
+
+.prices__table td {
+    height: 25px;
+}
+
+.prices__table tr:first-child th {
+    height: 50px;
+    vertical-align: top;
+}
+
+.prices__table tr:last-child th {
+    height: 50px;
+    vertical-align: top;
+}
+
+.prices__table td:first-child {
+    text-align: left;
+    padding-right: 60px;
+}
+
+.prices__table td:last-child {
+    text-align: right;
+}
+
+.prices__table th:last-child {
+    text-align: right;
+}
+
+.prices__photo {
+    background: url('/img/background/prices.png') 0 0 no-repeat;   
+    width: 550px;
+    height: 400px;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+
+}
+
+.prices__name {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.prices__text {
+    display: inline-block; 
+    width: 630px;
+    text-align: left;
+}
+
+
+.prices__back {
+    background: url('/img/icons/Sprite.png') -300px -100px no-repeat;
+    margin-right: 40px;
+}
+
+.prices__next {
+    background: url('/img/icons/Sprite.png') -400px -100px no-repeat;
+    margin-left: 40px;
+}
+

@@ -1,0 +1,81 @@
+/*sevices section*/
+
+.team {
+    background: url('/img/background/services-team.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.team__content {
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+
+}
+
+.team__title {
+    color: #fff;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+
+.team__about {
+    color: #fff;
+    margin-bottom: 45px;
+    display: block;
+    width: 570px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__wrapper {
+    float: left;
+    display: block;
+    margin-left: -30px;
+    font-size: 0;
+}
+
+.team__item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 370px;
+    margin-left: 30px;
+
+}
+
+.team__photo {
+    height: 270px;
+    width: 270px;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team__name {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.team__name .team__name--semibold {
+font-weight: 600;
+}
+
+
+.team__text {
+    color: #fff;
+    font-size: 18px;
+}
