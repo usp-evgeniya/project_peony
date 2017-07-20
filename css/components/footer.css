@@ -36,7 +36,7 @@
 .socials__icon {
     width: 46px;
     height: 46px;
-    background: url('/img/icons/Sprite.png') 0 -100px no-repeat;
+    background: url('../../img/icons/Sprite.png') 0 -100px no-repeat;
 }
 
 .socials__fb {
@@ -58,9 +58,12 @@
     display: inline-block;
     width: 46px;
     height: 46px;
-    background: url('/img/icons/Sprite.png') 0 -200px no-repeat;
+    background: url('../../img/icons/Sprite.png') 0 -200px no-repeat;
     opacity: 0;
     transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+
 }
 
 .socials__fb:after {

@@ -47,7 +47,7 @@
 .contacts__item:before {
     content: "";
     display: inline-block;
-    background: url('/img/icons/Sprite.png') 0 0 no-repeat;
+    background: url('../../img/icons/Sprite.png') 0 0 no-repeat;
     width: 46px;
     height: 46px;
     margin-right: 20px;

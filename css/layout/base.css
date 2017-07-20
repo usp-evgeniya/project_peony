@@ -25,25 +25,8 @@ body {
     line-height: 1.5;
     font-size: 18px;
     color: #000;
+    min-width: 1230px;
     }
-
-    /*
-.wrapper {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-
-.wrapper:after {
-    content: "";
-    display: block;
-    height: 77px; 
-}
-
-*/
 
 .container {
     width: 1230px;
@@ -78,9 +61,11 @@ h2 {
     display: inline-block;
     width: 18px;
     height: 27px;
-    background: url('/img/icons/Sprite.png') -300px -200px no-repeat;
+    background: url('../../img/icons/Sprite.png') -300px -200px no-repeat;
     opacity: 0;
     transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
 }
 
 .next:after {
@@ -88,9 +73,11 @@ h2 {
     display: inline-block;
     width: 18px;
     height: 27px;
-    background: url('/img/icons/Sprite.png') -400px -200px no-repeat;
+    background: url('../../img/icons/Sprite.png') -400px -200px no-repeat;
     opacity: 0;
     transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
 }
 
 .back:hover:after {

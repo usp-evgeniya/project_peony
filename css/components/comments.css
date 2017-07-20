@@ -43,7 +43,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
 }
 
 .comments__name {
@@ -61,13 +63,13 @@
 
 
 .comments__back {
-    background: url('/img/icons/Sprite.png') -300px -100px no-repeat;
+    background: url('../../img/icons/Sprite.png') -300px -100px no-repeat;
     margin-right: 40px;
     vertical-align: middle;
 }
 
 .comments__next {
-    background: url('/img/icons/Sprite.png') -400px -100px no-repeat;
+    background: url('../../img/icons/Sprite.png') -400px -100px no-repeat;
     margin-left: 40px;
     vertical-align: middle;
 }

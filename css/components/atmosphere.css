@@ -2,7 +2,7 @@
 
 
 .atmosphere {
-    background: url('/img/background/atmosphere.jpg') 50% 50% no-repeat;
+    background: url('../../img/background/atmosphere.jpg') 50% 50% no-repeat;
     background-size: cover;
 }
 

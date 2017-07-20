@@ -1,15 +1,13 @@
 /*sevices section*/
 
 .team {
-    background: url('/img/background/services-team.jpg') center center no-repeat;
+    background: url('../../img/background/services-team.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .team__content {
     padding-top: 85px;
     padding-bottom: 85px;
-
-
 }
 
 .team__title {
@@ -62,6 +60,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
 }
 
 .team__name {
@@ -71,7 +71,7 @@
 }
 
 .team__name .team__name--semibold {
-font-weight: 600;
+    font-weight: 600;
 }
 
 

@@ -45,21 +45,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
 }
 
 
 .works__back {
-    background: url('/img/icons/Sprite.png') -300px -100px no-repeat;
+    background: url('../../img/icons/Sprite.png') -300px -100px no-repeat;
     top: 50%;
     margin-top: 20px;
-    margin-left: -35px;
+    margin-left: -26px;
     position: absolute; 
 }
 
 .works__next {
-    background: url('/img/icons/Sprite.png') -400px -100px no-repeat;
+    background: url('../../img/icons/Sprite.png') -400px -100px no-repeat;
     top: 50%;
     margin-top: 20px;
-    right: -8px;
+    right: 5px;
     position: absolute; 
 }

@@ -1,7 +1,7 @@
 /*sevices section*/
 
 .services {
-    background: url('/img/background/services-team.jpg') center center no-repeat;
+    background: url('../../img/background/services-team.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -47,6 +47,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
 }
 .services__text {
     color: #fff;
